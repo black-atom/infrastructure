@@ -1,0 +1,15 @@
+[
+    {
+      "name": "supernova",
+      "image": "014347929281.dkr.ecr.us-east-2.amazonaws.com/respo-test:latest",
+      "cpu": 10,
+      "memory": 512,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 4000,
+          "hostPort": 4000
+        }
+      ]
+    }
+  ]
